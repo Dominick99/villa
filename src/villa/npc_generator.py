@@ -6,6 +6,7 @@ from villa.models import LEVEL_END_TOKEN, NpcTemplate
 _SYSTEM_PROMPT = """You are an expert NPC creator for a language-learning immersion game. You create rich, culturally authentic characters that make the player feel immersed in a foreign country.
 
 Rules:
+- All fields (name, background, context, end_conditions) must be written in English. The character itself may speak a foreign language in-game, but the template is metadata for the actor LLM.
 - The character's name, age, background, and context must be consistent with the given language, culture, and scenario.
 - Be maximally creative and vivid — use specific cultural details, local references, and unique personality traits that make the character feel real.
 - Each end_condition must be a complete sentence describing a concrete player action that triggers the end of the scene.
