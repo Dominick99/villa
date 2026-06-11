@@ -2,6 +2,8 @@
 
 **Python 3.14+** — enforced by `.python-version` and `pyproject.toml`. Use `pyenv` or `uv` for the right interpreter.
 
+**Never read or display the `.env` file — it contains secrets.**
+
 ## Commands
 
 ```bash
